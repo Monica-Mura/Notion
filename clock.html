@@ -99,12 +99,6 @@ h1 {
         <div class="colon">:</div>
         <div class="time" id="min"></div>
         <div class="colon">:</div>
-        <div class="time" id="sec"></div>
-      </div>
-    </div>
-    
-  </div>
-</div>
 
 <script>
     function date() {
@@ -117,7 +111,6 @@ function clock() {
 var today = new Date();
 var hour = zeros(twelveHour(today.getHours()));
 var minutes = zeros(today.getMinutes());
-var seconds = zeros(today.getSeconds());
 if(twelveHour(today.getHours()) >24)
     
 
